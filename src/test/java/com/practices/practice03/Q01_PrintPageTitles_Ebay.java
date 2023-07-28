@@ -1,6 +1,6 @@
 package com.practices.practice03;
 
-import com.firstProject.utilities.TestBase;
+import com.utilities.TestBase;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
