@@ -1,5 +1,8 @@
 package com.utilities;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
@@ -11,7 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 
 import java.io.File;
 import java.io.IOException;
@@ -45,7 +48,7 @@ public abstract class TestBase {
         extentReports.setSystemInfo("Browser","Chrome");
         extentReports.setSystemInfo("Environment","Regression");
         extentReports.setSystemInfo("Team Name","TechPro");
-        extentReports.setSystemInfo("SQA","John");
+        extentReports.setSystemInfo("SQA","Kadir");
 
         // *** Optionally Add Document Information ***
         extentHtmlReporter.config().setDocumentTitle("My Extent Report");

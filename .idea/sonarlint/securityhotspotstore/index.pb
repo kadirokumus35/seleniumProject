@@ -1,6 +1,4 @@
 
-f
-6src/test/java/com/firstProject/FirstSeleniumClass.java,f\a\fac557138183092c551c8428e8cdbb1c7fbc2ae4
 n
 >src/test/java/com/firstProject/Day02_WebDriverManagerTest.java,a\c\acabfc8d0a84832d53446aec02b0a0bc041527a3
 m
