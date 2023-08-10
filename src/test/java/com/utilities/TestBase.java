@@ -148,6 +148,14 @@ captures the screenshot of specific elements
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();",element);
     }
+    public static void jsSendKeys(String text,WebElement element){//arama kutularına web element gonder
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].value='"+text+"'",element);
+    }
+    public static void jsSetAttribute(String text,String attribute,WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('"+attribute+"','"+text+"')",element);
+    }
 
     //    EXPLICITLY WAIT FOR ELEMENT TO BE VISIBLE, SCROLL INTO THE ELEMENT, THEN CLICK BY JS
     public static void clickWithTimeoutByJS(WebElement element) {

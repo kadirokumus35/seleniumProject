@@ -5,6 +5,20 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 
 public class Day12_Log4J2  {
+
+    /*
+
+    dependencies icin apache poie oldugu gibi log4j de de ayni versiyonlar olmali, pom.xml i incele
+
+    log4j.xml dosyasi da resources da olacak=> ayarlari ona gore yapildi
+
+
+    hem konsolda hemde ayrı bir dosyada adım adım bilgi alırız. souttan farki budur.
+    istedigimiz bilgilendirmeyi yazabiliyoruz
+    log4j dependices gerekir. zaman bilgisi alinabilir, kalici dosyada bilgiler tutulabilir.
+
+
+     */
     // Create looger object
     private static Logger logger = LogManager.getLogger(Day12_Log4J2.class.getName());
 
